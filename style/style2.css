@@ -1,0 +1,54 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Base*/
+
+body{
+background: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+    }
+
+header .container{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial black', Times;
+    font-size: 40px;
+}
+
+header .semi{
+    font-family: "Arial black";
+    font-size: 20px;
+    color: #aaa;
+}
+
+header nav a{
+    color: #aaa;
+    text-decoration: none;
+    margin: 10px;
+    
+    cursor: pointer;
+    transition: 1s ease all;
+}
+
+header nav a:hover{
+    color: var(--vermelho);
+    font-size: 20px;
+}

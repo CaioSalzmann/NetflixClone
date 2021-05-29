@@ -1,0 +1,39 @@
+ 
+ @media screen and (max-width:1203px) {
+     header .container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     }
+         
+}
+
+@media screen and (max-width:1203px) {
+    header .container .semi{
+        color: var(--vermelho);
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 642px) {
+.botao{        
+    margin-top: 10px;
+}
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media (max-width:409px){
+    header .container .semi{
+        display: none;
+    }
+}
